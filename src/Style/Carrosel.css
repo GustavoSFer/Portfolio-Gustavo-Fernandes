@@ -1,0 +1,41 @@
+.img-carrosel {
+  width: 400px;
+  height: 320px;
+  opacity: 30%;
+}
+
+.img-carrosel2 {
+  width: 300px;
+  height: 320px;
+  opacity: 10%;
+}
+
+.width-txt {
+  height: 80%;
+  /* text-shadow: 4px 10px #484747; */
+}
+
+.txt-descricao {
+  font-size: 2.5em;
+  font-weight: 1000;
+}
+
+.txt-p {
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 900;
+  margin-top: 60px;
+}
+
+span {
+  color: #ffc628;
+  font-size: 1.1em;
+  font-weight: 1000;
+  text-shadow: 3px 3px #484747;
+}
+
+@media only screen and (max-width: 700px) {
+  .display {
+    display: none;
+  }
+}
