@@ -3,7 +3,7 @@ import '../Style/Nav.css';
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg bg-dark mb-5">
       <h1>
         <a href="#/" className="navbar-brand">Gustavo</a>
       </h1>

@@ -5,11 +5,12 @@ import trybe from '../images/trybe.png';
 import devPc from '../images/dev-pc.png';
 import dio from '../images/dio.png';
 import '../Style/Carrosel.css';
+import RedesSociais from './RedesSociais';
 
 function Carrosel() {
   return (
     <div className="row align-items-center">
-      <div className="col">
+      <div className="col col-md-7">
         <Carousel>
 
           <Carousel.Item>
@@ -17,7 +18,7 @@ function Carrosel() {
             <Carousel.Caption className="">
               <p className="txt-p">Olá!</p>
               <h3 className="txt-descricao">
-                Eu sou
+                Eu sou o
                 <span> Gustavo Fernandes</span>
               </h3>
               <p className="txt-p">
@@ -29,12 +30,13 @@ function Carrosel() {
           <Carousel.Item>
             <img src={trybe} alt="Imagem escola Trybe" className="img-carrosel" />
             <Carousel.Caption className="">
+              <p className="txt-p">Formado</p>
               <h3 className="txt-descricao">
                 Desenvolvedor
                 <span> Web FullStack</span>
               </h3>
               <p className="txt-p">
-                Formado pela escola
+                Pela escola
                 <span> Trybe</span>
               </p>
             </Carousel.Caption>
@@ -62,7 +64,7 @@ function Carrosel() {
             <img src={Gustavo} alt="Imagem Gustavo" className="img-home" />
           </div>
           <div className="col">
-            redes social
+            <RedesSociais />
           </div>
         </div>
       </div>

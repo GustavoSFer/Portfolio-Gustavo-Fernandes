@@ -1,0 +1,15 @@
+.container-contato {
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.img-1 {
+  background-image: url('../images/github.png');
+}
+
+.img-2 {
+  background-image: url('../images/linkedin.png');
+}
