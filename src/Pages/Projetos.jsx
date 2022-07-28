@@ -1,4 +1,5 @@
 import React from 'react';
+import CardProject from '../Components/CardProject';
 import '../Style/Projetos.css';
 
 function Projetos() {
@@ -10,6 +11,13 @@ function Projetos() {
       </div>
       <div className="margin-txt">
         <p>Para visualizar o projeto, clique em cima do projeto que gostaria de ver.</p>
+
+        <div className="conatiner-project">
+          <CardProject />
+          <CardProject />
+          <CardProject />
+          <CardProject />
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,79 @@
+.conatiner-project {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.conatiner-project .card {
+  width: 280px;
+  height: 400px;
+  margin: 30px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.conatiner-project .card .content {
+  padding: 20px;
+  text-align: center;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.conatiner-project .card:hover .content {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.conatiner-project .card .content h2 {
+  position: absolute;
+  top: -80px;
+  right: 30px;
+  font-size: 8em;
+  color: rgba(255, 255, 255, 0.04);
+  pointer-events: none;
+}
+
+.conatiner-project .card .content h3 {
+  font-size: 1.8em;
+  color: white;
+  z-index: 1;
+}
+
+.conatiner-project .card .content p {
+  font-size: 1em;
+  color: white;
+  font-weight: 300;
+}
+
+
+@media only screen and (max-width: 650px) {
+  .conatiner-project .card {
+    width: 100px;
+    height: 135px;
+    margin: 20px;
+  }
+  .conatiner-project .card .content h2 {
+    display: none;
+  }
+  
+  .conatiner-project .card .content h3 {
+    font-size: 1em;
+  }
+  
+  .conatiner-project .card .content p {
+    font-size: 0.9em;
+    font-weight: 300;
+  }
+}
