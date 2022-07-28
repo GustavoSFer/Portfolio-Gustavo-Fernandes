@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .txt-h1 {
   color: #ffc628;
   font-size: 2.5em;
@@ -9,9 +13,40 @@
 }
 
 .img-sobre {
-  height: 98%;
   width: 80%;
   border-radius: 10px;
+}
+
+.rede-linkedin {
+  position: absolute;
+}
+.rede-linkedin  h1 a {
+  font-size: 0.6em;
+  top: 40px;
+}
+.rede-linkedin  h1 a:hover {
+  color: white;
+}
+.rede-linkedin  h2 {
+  font-size: 1.6em;
+  top: 50px;
+  left: 28px;
+}
+
+.rede-github {
+  position: absolute;
+}
+.rede-github  h1 a {
+  font-size: 0.6em;
+  top: 105px;
+}
+.rede-github  h1 a:hover {
+  color: white;
+}
+.rede-github  h2 {
+  font-size: 1.6em;
+  top: 115px;
+  left: 28px;
 }
 
 .txt-h2 {

@@ -1,4 +1,5 @@
 import React from 'react';
+// import RedesSociais from '../Components/RedesSociais';
 import gustavo from '../images/sobre.jpeg';
 import '../Style/Sobre.css';
 
@@ -36,6 +37,38 @@ function Sobre() {
             Sempre em busca de novos desafios, aprendendo a cada dia em plataformas
             como Udemy, Digital Inovation One, Fundação Bradesco entre outros...
           </p>
+          <div className="rede-linkedin">
+            <h4>Entrar em contato:</h4>
+            <h1>
+              <a
+                className="txt-h1"
+                href="https://www.linkedin.com/in/gustavo-dos-santos-fernandes/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+            </h1>
+            <h2 className="txt-h2">
+              LinkedIn
+            </h2>
+          </div>
+          <div className="rede-github">
+            <h1>
+              <a
+                className="txt-h1"
+                href="https://github.com/GustavoSFer"
+                target="_blank"
+                rel="noreferrer"
+
+              >
+                GitHub
+              </a>
+            </h1>
+            <h2 className="txt-h2">
+              GitHub
+            </h2>
+          </div>
         </div>
       </section>
     </header>
