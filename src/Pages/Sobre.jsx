@@ -1,12 +1,12 @@
 import React from 'react';
-// import Gustavo from '../images/Gustavo.png';
+import gustavo from '../images/sobre.jpeg';
 import '../Style/Sobre.css';
 
 function Sobre() {
   return (
-    <header className="row border border-danger mt-5">
+    <header className="row mt-5">
       <section className="col sec2">
-        <h1>Seja Bem vindo!</h1>
+        <img src={gustavo} alt="foto ilustrativa sobre o personagem" className="img-sobre" />
       </section>
       <section className="col text-center">
         <div className="txt-cabecalho">

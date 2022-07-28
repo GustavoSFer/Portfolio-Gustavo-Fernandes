@@ -8,6 +8,12 @@
   z-index: 2;
 }
 
+.img-sobre {
+  height: 98%;
+  width: 80%;
+  border-radius: 10px;
+}
+
 .txt-h2 {
   font-size: 3.2em;
   color: rgb(65, 61, 61);
