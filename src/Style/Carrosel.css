@@ -1,3 +1,13 @@
+.ap-ca {
+  margin-top: 100px;
+  border: 1px solid blue;
+  position: absolute;
+}
+
+.container-top {
+  margin-top: 70px;
+}
+
 .img-carrosel {
   width: 400px;
   height: 320px;
@@ -39,5 +49,8 @@ span {
 @media only screen and (max-width: 950px) {
   .display {
     display: none;
+  }
+  body {
+    font-size: 13px;
   }
 }

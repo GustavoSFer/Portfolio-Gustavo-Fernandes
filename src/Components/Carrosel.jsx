@@ -9,7 +9,7 @@ import RedesSociais from './RedesSociais';
 
 function Carrosel() {
   return (
-    <div className="row align-items-center">
+    <div className="row align-items-center container-top">
       <div className="col col-md-7">
         <Carousel>
 

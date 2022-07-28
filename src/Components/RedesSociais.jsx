@@ -3,7 +3,7 @@ import '../Style/RedesSociais.css';
 
 function RedesSociais() {
   return (
-    <div>
+    <div className="position-rede">
       <a
         href="https://github.com/GustavoSFer"
         target="_blank"
