@@ -1,6 +1,6 @@
 import './App.css';
 import Nav from './Components/Nav';
-import Home from './Pages/Home';
+import Sobre from './Pages/Sobre';
 import Carrosel from './Components/Carrosel';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="p-5 border border-danger bg-dark text-white position">
       <Nav />
       <Carrosel />
-      <Home />
+      <Sobre />
     </div>
   );
 }

@@ -1,0 +1,45 @@
+import React from 'react';
+// import Gustavo from '../images/Gustavo.png';
+import '../Style/Sobre.css';
+
+function Sobre() {
+  return (
+    <header className="row border border-danger mt-5">
+      <section className="col sec2">
+        <h1>Seja Bem vindo!</h1>
+      </section>
+      <section className="col text-center">
+        <div className="txt-cabecalho">
+          <h1 className="txt-h1">Quem sou eu</h1>
+          <h2 className="txt-h2">Sobre mim</h2>
+        </div>
+        <div className="txt-text">
+          <p>
+            Sou uma pessoa apaixonado pela tecnologia!!!
+          </p>
+          <p>
+            Gosto de gerar novas ideias e desenvolver soluções viáveis para problemas
+            amplamente relevantes.
+          </p>
+          <p>
+            Adoro ensinar pessoas e compartilhar conhecimentos, de forma que cada
+            troca acrescenta um aprendizado para cada um de nós.
+          </p>
+          <p>
+            Formado em Desenvolvimento web pela escola
+            <span className="fw-bolder"> Trybe</span>
+            . Antes disso começei a faculdade de Ciências da computação pela Universidade
+            Anhembi Morumbi. Resolvi tranca-la para começar o curso na Trybe, mas pretendo
+            retornar.
+          </p>
+          <p>
+            Sempre em busca de novos desafios, aprendendo a cada dia em plataformas
+            como Udemy, Digital Inovation One, Fundação Bradesco entre outros...
+          </p>
+        </div>
+      </section>
+    </header>
+  );
+}
+
+export default Sobre;
