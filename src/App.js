@@ -3,6 +3,7 @@ import Nav from './Components/Nav';
 import Sobre from './Pages/Sobre';
 import Carrosel from './Components/Carrosel';
 import Projetos from './Pages/Projetos';
+import Habilidades from './Pages/Habilidades';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Carrosel />
       <Sobre />
       <Projetos />
+      <Habilidades />
     </div>
   );
 }

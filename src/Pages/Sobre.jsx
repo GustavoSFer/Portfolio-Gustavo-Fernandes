@@ -1,5 +1,4 @@
 import React from 'react';
-// import RedesSociais from '../Components/RedesSociais';
 import gustavo from '../images/sobre.jpeg';
 import '../Style/Sobre.css';
 
