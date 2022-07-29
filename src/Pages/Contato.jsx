@@ -3,6 +3,7 @@ import phone from '../images/telephone.png';
 import linkedin from '../images/linkedin1.png';
 import github from '../images/github1.png';
 import '../Style/Contato.css';
+import Footer from '../Components/Footer';
 
 function Contato() {
   return (
@@ -46,9 +47,8 @@ function Contato() {
             </div>
           </a>
         </div>
-
+        <Footer />
       </div>
-      hdfushus
     </div>
   );
 }
