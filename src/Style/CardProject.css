@@ -5,7 +5,7 @@
   align-items: center;
   max-width: 1200px;
   flex-wrap: wrap;
-  z-index: 1;
+  z-index: 3;
 }
 
 .conatiner-project .card {
@@ -34,6 +34,15 @@
 .conatiner-project .card:hover .content {
   transform: translateY(0px);
   opacity: 1;
+}
+
+.conatiner-project .card img {
+  position: absolute;
+  opacity: 60%;
+}
+
+.conatiner-project .card:hover img {
+  opacity: 5%;
 }
 
 .conatiner-project .card .content h2 {
@@ -76,4 +85,8 @@
     font-size: 0.9em;
     font-weight: 300;
   }
+}
+
+.img-project {
+  opacity: 8%;
 }
