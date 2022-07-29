@@ -1,0 +1,75 @@
+a {
+  text-decoration: none;
+}
+
+.txt-h1 {
+  color: #ffc628;
+  font-size: 2.5em;
+  font-weight: 1000;
+  width: 300px;
+  position: absolute;
+  left: 20px;
+  z-index: 2;
+}
+
+.img-sobre {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.rede-linkedin {
+  position: absolute;
+}
+.rede-linkedin  h1 a {
+  font-size: 0.6em;
+  top: 40px;
+}
+.rede-linkedin  h1 a:hover {
+  color: white;
+}
+.rede-linkedin  h2 {
+  font-size: 1.6em;
+  top: 50px;
+  left: 28px;
+}
+
+.rede-github {
+  position: absolute;
+}
+.rede-github  h1 a {
+  font-size: 0.6em;
+  top: 105px;
+}
+.rede-github  h1 a:hover {
+  color: white;
+}
+.rede-github  h2 {
+  font-size: 1.6em;
+  top: 115px;
+  left: 28px;
+}
+
+.txt-h2 {
+  font-size: 3.2em;
+  color: rgb(65, 61, 61);
+  font-weight: 1000;
+  position: absolute;
+  top: 25px;
+  left: 38px;
+  width: 300px;
+  z-index: 1;
+}
+
+.txt-cabecalho {
+  position: absolute;
+}
+
+.txt-text {
+  margin-top: 120px;
+}
+
+@media only screen and (max-width: 450px) {
+  .sec2 {
+    display: none;
+  }
+}

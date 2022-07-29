@@ -1,0 +1,27 @@
+.container-contato {
+  background-size: cover;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.position-rede {
+  margin-top: 120px;
+}
+
+.img-1 {
+  background-image: url('../images/github.png');
+}
+
+.img-2 {
+  background-image: url('../images/linkedin.png');
+}
+
+.img-1:hover{
+  opacity: 40%;
+
+}
+
+.img-2:hover {
+  opacity: 40%;
+}

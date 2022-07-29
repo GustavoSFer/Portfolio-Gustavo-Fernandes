@@ -1,0 +1,19 @@
+.container-habilidades {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  margin-top: 200px;
+}
+
+.container-progress {
+  margin-top: 120px;
+}
+
+.width-progress {
+  width: 85%;
+}
+
+.tamanho {
+  width: 43%;
+}
+.tamanho h3 {
+  font-size: 1.2em;
+}

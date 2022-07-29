@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nameProject": "App Recipes",
+    "description": "Desenvolver um app de receitas, sendo com buscas, filtragem, favoritar e acompanhar o processo de preparação de receitas e drinks!",
+    "urlProject": "https://GustavoSFer.github.io/recipe-app",
+    "img": "https://i.imgur.com/7QycOOQ.png"
+  },
+  {
+    "id": 2,
+    "nameProject": "Blog Digimatec",
+    "description": "Desenvolver um blog para ser utilizado pelos cliente da empresa. Conseguindo ver tutoriais e videos.",
+    "urlProject": "http://www.digimatec.com.br/blog/",
+    "img": "https://i.imgur.com/4LpwVrk.png"
+  },
+  {
+    "id": 3,
+    "nameProject": "So Séries",
+    "description": "Clone Netflix, Atividade da Dio. Fazer uma pagina igual ao do Netflix colocando em pratico o que aprendi no curso.",
+    "urlProject": "https://gustavosfer.github.io/SoSeries/index.html",
+    "img": "https://i.imgur.com/cOhkONq.png"
+  }
+]
