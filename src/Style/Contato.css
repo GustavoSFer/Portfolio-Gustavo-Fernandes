@@ -1,0 +1,36 @@
+.container-contato {
+  display: contents;
+}
+
+.espaco {
+  margin-top: 120px;
+}
+
+.container-contato .card {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  margin: 30px; 
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(222, 229, 8, 0.986);
+  border-left: 1px solid rgba(222, 229, 8, 0.986);
+}
+
+.container-contato .card .content {
+  padding: 5px;
+  text-align: center;
+}
+
+.container-contato .card .content h3 {
+  margin-top: 25px;
+  font-size: 1em;
+  color: white;
+  z-index: 1;
+}
+
+.img-telephone {
+  width: 30px;
+}

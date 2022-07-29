@@ -4,6 +4,7 @@ import Sobre from './Pages/Sobre';
 import Carrosel from './Components/Carrosel';
 import Projetos from './Pages/Projetos';
 import Habilidades from './Pages/Habilidades';
+import Contato from './Pages/Contato';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Sobre />
       <Projetos />
       <Habilidades />
+      <Contato />
     </div>
   );
 }
