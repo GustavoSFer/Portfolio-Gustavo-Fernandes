@@ -70,9 +70,9 @@
 
 @media only screen and (max-width: 650px) {
   .conatiner-project .card {
-    width: 100px;
-    height: 135px;
-    margin: 20px;
+    width: 115px;
+    height: 145px;
+    margin: 8px;
   }
   .conatiner-project .card .content h2 {
     display: none;

@@ -12,7 +12,7 @@ function Carrosel() {
   return (
     <div className="row align-items-center container-top">
       <Zoom>
-        <div className="col col-md-7">
+        <div className="col width-ms">
           <Carousel>
             <Carousel.Item>
               <img src={devPc} alt="Imagem escola Trybe" className="img-carrosel2" />

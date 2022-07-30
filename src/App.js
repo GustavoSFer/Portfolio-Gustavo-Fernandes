@@ -8,7 +8,7 @@ import Contato from './Pages/Contato';
 
 function App() {
   return (
-    <div className="p-5 bg-dark text-white position">
+    <div className="p-5 bg-dark text-white position border border-success">
       <Nav />
       <Carrosel />
       <Sobre />

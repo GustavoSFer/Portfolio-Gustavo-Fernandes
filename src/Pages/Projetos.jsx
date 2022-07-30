@@ -34,15 +34,13 @@ function Projetos() {
           </div>
         </Zoom>
 
-        <Zoom top>
-          <section className="conatiner-project">
-            {
-              dataProjct.length > 0
-                ? dataProjct.map((item) => <CardProject data={item} key={item.id} />)
-                : <h3>Sem Projetos!</h3>
-            }
-          </section>
-        </Zoom>
+        <section className="conatiner-project">
+          {
+            dataProjct.length > 0
+              ? dataProjct.map((item) => <CardProject data={item} key={item.id} />)
+              : <h3>Sem Projetos!</h3>
+          }
+        </section>
 
       </div>
 
