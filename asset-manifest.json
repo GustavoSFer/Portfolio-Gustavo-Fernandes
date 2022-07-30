@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-Gustavo-Fernandes/static/css/main.e32deac3.css",
-    "main.js": "/Portfolio-Gustavo-Fernandes/static/js/main.d1ef2a5b.js",
+    "main.css": "/Portfolio-Gustavo-Fernandes/static/css/main.9e887a41.css",
+    "main.js": "/Portfolio-Gustavo-Fernandes/static/js/main.03ba7252.js",
     "static/js/787.74afcbb1.chunk.js": "/Portfolio-Gustavo-Fernandes/static/js/787.74afcbb1.chunk.js",
     "static/media/sobre.jpeg": "/Portfolio-Gustavo-Fernandes/static/media/sobre.729c1bd7903af290fff6.jpeg",
     "static/media/dev-pc.png": "/Portfolio-Gustavo-Fernandes/static/media/dev-pc.55cf725d1bb619406fe3.png",
@@ -11,12 +11,12 @@
     "static/media/linkedin.png": "/Portfolio-Gustavo-Fernandes/static/media/linkedin.c225e3865d78e7a81c2f.png",
     "static/media/dio.png": "/Portfolio-Gustavo-Fernandes/static/media/dio.82e27d34d7e0ae249f0a.png",
     "index.html": "/Portfolio-Gustavo-Fernandes/index.html",
-    "main.e32deac3.css.map": "/Portfolio-Gustavo-Fernandes/static/css/main.e32deac3.css.map",
-    "main.d1ef2a5b.js.map": "/Portfolio-Gustavo-Fernandes/static/js/main.d1ef2a5b.js.map",
+    "main.9e887a41.css.map": "/Portfolio-Gustavo-Fernandes/static/css/main.9e887a41.css.map",
+    "main.03ba7252.js.map": "/Portfolio-Gustavo-Fernandes/static/js/main.03ba7252.js.map",
     "787.74afcbb1.chunk.js.map": "/Portfolio-Gustavo-Fernandes/static/js/787.74afcbb1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e32deac3.css",
-    "static/js/main.d1ef2a5b.js"
+    "static/css/main.9e887a41.css",
+    "static/js/main.03ba7252.js"
   ]
 }
