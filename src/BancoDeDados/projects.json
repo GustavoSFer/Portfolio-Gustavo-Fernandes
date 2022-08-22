@@ -8,13 +8,20 @@
   },
   {
     "id": 2,
+    "nameProject": "Shopping Cart",
+    "description": "Consumindo dados diretamente de uma API do mercado livre para buscarmos produtos à venda. Listar os produtos e ter como opções de adicionar e remover produtos no carrinho. Conseguir realizar os filtros de preços e buscar por nome do produto. USUARIO: 'fulano@gmail.com' SENHA: 'fulano1234'",
+    "urlProject": "https://GustavoSFer.github.io/project-shopping-cart",
+    "img": "https://i.imgur.com/4NkvyuQ.png"
+  },
+  {
+    "id": 3,
     "nameProject": "Blog Digimatec",
     "description": "Desenvolver um blog para ser utilizado pelos cliente da empresa. Conseguindo ver tutoriais e videos.",
     "urlProject": "http://www.digimatec.com.br/blog/",
     "img": "https://i.imgur.com/4LpwVrk.png"
   },
   {
-    "id": 3,
+    "id": 4,
     "nameProject": "So Séries",
     "description": "Clone Netflix, Atividade da Dio. Fazer uma pagina igual ao do Netflix colocando em pratico o que aprendi no curso.",
     "urlProject": "https://gustavosfer.github.io/SoSeries/index.html",
